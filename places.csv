@@ -1,0 +1,140 @@
+city,state,country,status
+Guadalajara,Jalisco,Mexico,born
+Ciudad de Mexico,Ciudad de Mexico,Mexico,lived
+San Cristobal de las Casas,Chiapas,Mexico,lived
+San Jose del Cabo,Baja California Sur,Mexico,lived
+Vancouver,British Columbia,Canada,lived
+Montreal,Quebec,Canada,lived
+Calgary,Alberta,Canada,current
+London,London,England,been
+Brighton,East Sussex,England,been
+Madrid,Madrid,Spain,been
+Paris,Paris,France,been
+Toulouse,Toulouse,France,been
+Saint-Gaudens,Haute-Garonne,France,been
+Munich,Bavaria,Germany,been
+Garmisch-Partenkirchen,Bavaria,Germany,been
+Berlin,Berlin,Germany,been
+Florence,Tuscany,Italy,been
+Pisa,Tuscany,Italy,been
+Kathmandu,Bagmati,Nepal,been
+Pokhara,Gandaki,Nepal,been
+Bangkok,Bangkok,Thailand,been
+Lagos de Moreno,Jalisco,Mexico,been
+Tepatitlan,Jalisco,Mexico,been
+Cuquio,Jalisco,Mexico,been
+Yahualica de Gonzalez Gallo,Jalisco,Mexico,been
+Zapotlan el Grande,Jalisco,Mexico,been
+Sayula,Jalisco,Mexico,been
+Tapalpa,Jalisco,Mexico,been
+Mazamitla,Jalisco,Mexico,been
+Puerto Vallarta,Jalisco,Mexico,been
+Mascota,Jalisco,Mexico,been
+San Sebastian del Oeste,Jalisco,Mexico,been
+Autlan,Jalisco,Mexico,been
+Tequila,Jalisco,Mexico,been
+Jocotepec,Jalisco,Mexico,been
+Chapala,Jalisco,Mexico,been
+Tuxcueca,Jalisco,Mexico,been
+Atemajac de Brizuela,Jalisco,Mexico,been
+Ejutla,Jalisco,Mexico,been
+Ixtlahuacan del Rio, Jalisco,Mexico,been
+Ameca,Jalisco,Mexico,been
+La Huerta,Jalisco,Mexico,been
+Cihuatlan,Jalisco,Mexico,been
+Ocotlan,Jalisco,Mexico,been
+Arandas,Jalisco,Mexico,been
+Tecolotlan,Jalisco,Mexico,been
+Colima,Colima,Mexico,been
+Manzanillo,Colima,Mexico,been
+Morelia,Michoacan,Mexico,been
+Zamora,Michoacan,Mexico,been
+Patzcuaro,Michoacan,Mexico,been
+Leon,Guanajuato,Mexico,been
+Irapuato,Guanajuato,Mexico,been
+Guanajuato,Guanajuato,Mexico,been
+San Miguel de Allende,Guanajuato,Mexico,been
+Atotonilco,Guanajuato,Mexico,been
+Acapulco,Guerrero,Mexico,been
+Oaxaca,Oaxaca,Mexico,been
+Tuxtla Gutierrez,Chiapas,Mexico,been
+Palenque,Chiapas,Mexico,been
+Merida,Yucatan,Mexico,been
+Valladolid,Yucatan,Mexico,been
+Cozumel,Quintana Roo,Mexico,been
+Benito Juarez,Quintana Roo,Mexico,been
+Campeche,Campeche,Mexico,been
+Veracruz,Veracruz,Mexico,been
+Amecameca,Mexico,Mexico,been
+Puebla,Puebla,Mexico,been
+San Andres Tuxtla,Veracruz,Mexico,been
+San Luis Potosi,San Luis Potosi,Mexico,been
+Taxco,Guerrero,Mexico,been
+Cuernavaca,Morelos,Mexico,been
+El Chico,Hidalgo,Mexico,been
+Nuevo Laredo,Tamaulipas,Mexico,been
+Bahia de Banderas,Nayarit,Mexico,been
+Tepic,Nayarit,Mexico,been
+Los Mochis,Sinaloa,Mexico,been
+Hermosillo,Sonora,Mexico,been
+Nogales,Sonora,Mexico,been
+Laredo,Texas,USA,been
+Ciudad Juarez,Chihuahua,Mexico,been
+Creel,Chihuahua,Mexico,been
+Tijuana,Baja California,Mexico,been
+Ensenada,Baja California,Mexico,been
+Todos Santos,Baja California Sur,Mexico,been
+El Paso,Texas,USA,been
+San Antonio,Texas,USA,been
+Austin,Texas,USA,been
+Marfa,Texas,USA,been
+Houston,Texas,USA,been
+Baton Rouge, Louisina,USA,been
+New Orleans,Louisiana,USA,been
+Miami,Florida,USA,been
+Tampa,FLorida,USA,been
+Orlando,Florida,USA,been
+St. Petersburg,Florida,USA,been
+Atlanta,Georgia,USA,been
+Charlotte,North Carolina,USA,been
+Roanoke,Virginia,USA,been
+Washington,DC,USA,been
+Manhattan,New York,USA,been
+Boston,Massachusetts,USA,been
+Quebec City,Quebec,Canada,been
+Ottawa,Quebec,Canada,been
+Toronto,Ontario,Canada,been
+St. Catharines,Ontario,Canada,been
+Chicago,Illinois,USA,been
+Minneapolis,Minesota,USA,been
+Keystone, South Dakota,USA,been
+Devil's Tower,Wyoming,USA,been
+Cody,Wyoming,USA,been
+Jackson,Wyoming,USA,been
+Salt Lake City,Utah,USA,been
+Albuquerque,New Mexico,USA,been
+Denver,Colorado,USA,been
+Las Vegas, Nevada,USA,been
+Tahoe,California,USA,been
+Reno,Nevada,USA,been
+Tucson,Arizona,USA,been
+Los Angeles,California,USA,been
+San Diego,Caifornia,USA,been
+San Francisco,California,USA,been
+Portland,Oregon,USA,been
+Astoria,Oregon,USA,been
+Seattle,Washington,USA,been
+Sunrise,Washington,USA,been
+Victoria,British Columbia,Canada,been
+Lake Louise,Alberta,Canada,been
+Banff,Alberta,Canada,been
+Canmore,Alberta,Canada,been
+Jasper,ALberta,Canada,been
+Hope,British Columbia,Canada,been
+Field,British Columbia,Canada,been
+Drumheller,Alberta,Canada,been
+Edmonton,Alberta,Canada,been
+Dawson Creek,British Columbia,Canada,been
+Whitehorse,Yukon,Canada,been
+Anchoraga,Alaska,USA,been
+Talkeetna,Alaska,USA,been
