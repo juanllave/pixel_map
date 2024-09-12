@@ -14,14 +14,16 @@ places <- read_csv(paste0(dir,'/places.csv')) %>%
 
 # Create a pixel grid
 lat <- tibble(lat = seq(-90, 90, by = 1))
-long <- tibble(long = seq(-180, 180, by = 1))
+long <- tibble(long = seq(-180, 180, by = 1 ))
 dots <- lat %>% 
   merge(long, all = TRUE)
 
 dots <- dots %>% 
   mutate(country = map.where('world', long, lat),
          lakes = map.where('lakes', long, lat)) %>% 
-  filter(!is.na(country) & is.na(lakes)) %>% 
+  filter(!is.na(country) & 
+           is.na(lakes) &
+           country != 'Antarctica') %>% 
   dplyr::select(-lakes)
 
 # Create a theme for the plot
@@ -43,19 +45,27 @@ pixel_map <- ggplot() +
              aes(x=longitude, y=latitude), 
              color='yellow', 
              size=0.8) + 
-  #plot all the places I lived in, using red
+  #plot Guadalajara and Calgary in magenta
   geom_point(data = places %>% 
-               filter(status == 'lived'), 
+               filter(status == 'born' |
+                        status == 'current'), 
              aes(x=longitude, y=latitude), 
-             color='red', 
+             color='magenta', 
              size=0.8) +
-  #an extra layer of halo around the places I lived in
+  #an extra layer of halo around
   geom_point(data = places %>% 
-               filter(status == 'lived'), 
+               filter(status == 'born' |
+                        status == 'current'), 
              aes(x=longitude, y=latitude), 
-             color='red', 
+             color='magenta', 
              size=3, 
              alpha = 0.4) +
+  #plot all the places I lived in, using dark green
+  geom_point(data = places %>% 
+               filter(status == 'lived'), 
+             aes(x=longitude, y=latitude), 
+             color='green', 
+             size=0.8) +
   theme
 
 pixel_map
