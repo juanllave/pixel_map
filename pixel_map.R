@@ -32,27 +32,26 @@ theme <- theme_void() +
   theme(panel.background = element_rect(fill=color_bk),
         plot.margin = unit(c(0, 0, 0, 0), 'cm'))
 
-
-
+# Create the map
 pixel_map <- ggplot() +   
-  #base layer of map dots
+  # base layer of map dots
   geom_point(data = dots, 
              aes(x=long, y = lat), 
              col = 'grey45', 
              size = 0.7) + 
-  #plot all the places I've been to
+  # plot all the places I've been to
   geom_point(data = places, 
              aes(x=longitude, y=latitude), 
              color='yellow', 
              size=0.8) + 
-  #plot Guadalajara and Calgary in magenta
+  # plot Guadalajara and Calgary in magenta
   geom_point(data = places %>% 
                filter(status == 'born' |
                         status == 'current'), 
              aes(x=longitude, y=latitude), 
              color='magenta', 
              size=0.8) +
-  #an extra layer of halo around
+  # an extra layer of halo around
   geom_point(data = places %>% 
                filter(status == 'born' |
                         status == 'current'), 
@@ -60,12 +59,14 @@ pixel_map <- ggplot() +
              color='magenta', 
              size=3, 
              alpha = 0.4) +
-  #plot all the places I lived in, using dark green
+  # plot all the places I lived in, using dark green
   geom_point(data = places %>% 
                filter(status == 'lived'), 
              aes(x=longitude, y=latitude), 
              color='green', 
              size=0.8) +
-  theme
+# add the theme
+    theme
 
+# Print the map
 pixel_map
