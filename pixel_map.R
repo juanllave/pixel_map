@@ -41,7 +41,7 @@ pixel_map <- ggplot() +
   #plot all the places I've been to
   geom_point(data = places, 
              aes(x=longitude, y=latitude), 
-             color='grey80', 
+             color='yellow', 
              size=0.8) + 
   #plot all the places I lived in, using red
   geom_point(data = places %>% 
@@ -56,12 +56,6 @@ pixel_map <- ggplot() +
              color='red', 
              size=3, 
              alpha = 0.4) +
-  geom_point(data = places %>% 
-               filter(status == 'been'), 
-             aes(x=longitude, y=latitude), 
-             color='yellow', 
-             size=0.8) +
-  #adding my theme
   theme
 
 pixel_map
