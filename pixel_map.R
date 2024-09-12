@@ -23,7 +23,7 @@ dots <- dots %>%
          lakes = map.where('lakes', long, lat)) %>% 
   filter(!is.na(country) & 
            is.na(lakes) &
-           country != 'Antarctica') %>% 
+           !str_detect(country, 'Antarctica')) %>% 
   dplyr::select(-lakes)
 
 # Create a theme for the plot
