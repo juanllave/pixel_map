@@ -13,8 +13,8 @@ places <- read_csv(paste0(dir,'/places.csv')) %>%
   geocode(full, method = 'osm', lat = latitude, long = longitude)
 
 # Create a pixel grid
-lat <- tibble(lat = seq(-90, 90, by = 1))
-long <- tibble(long = seq(-180, 180, by = 1 ))
+lat <- tibble(lat = seq(-90, 90, by = 0.5))
+long <- tibble(long = seq(-180, 180, by = 0.5))
 dots <- lat %>% 
   merge(long, all = TRUE)
 
@@ -38,12 +38,12 @@ pixel_map <- ggplot() +
   geom_point(data = dots, 
              aes(x=long, y = lat), 
              col = 'grey45', 
-             size = 0.7) + 
+             size = 0.25) + 
   # plot all the places I've been to
   geom_point(data = places, 
              aes(x=longitude, y=latitude), 
              color='yellow', 
-             size=0.8) + 
+             size=0.4) + 
   # plot Guadalajara and Calgary in magenta
   geom_point(data = places %>% 
                filter(status == 'born' |
