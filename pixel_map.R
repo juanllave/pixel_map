@@ -4,7 +4,7 @@ library(tidygeocoder)
 library(maps)
 
 # Set working directory
-setwd('~/Documents/repos/R/pixel_map')
+setwd('H:/repos/R/pixel_map')
 dir <- getwd()
 
 # Load list of places
